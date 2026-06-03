@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Forward</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- --------------- nav bar --------------- -->
+
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="Images/new.png" alt="">
+                    </a>
+                </div>
+            </nav>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <ul class="navmenu" id="MenuItems">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="#product">Products</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                </ul>
+
+
+                <div class="serch-bar">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </div>
+
+                <!-- <input class="form-control" type="search" placeholder="Search" aria-label="Search"> -->
+
+
+                <form class="d-flex">
+                    <div class="icons">
+                        <li>
+                            <a href="account.html"><i class="bi bi-person"></i></a>
+                        </li>
+                        <li>
+                            <a href="wishlist.html"><i class="bi bi-suit-heart"></i></a>
+                        </li>
+                        <li>
+                            <a href="cart.html"><i class="bi bi-cart2"></i></a>
+                        </li>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- --------------- nav bar --------------- -->
+
+    <!-- --------------- carousel --------------- -->
+
+    <div class="carousel">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/slider-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/slider-2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/slider-3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- --------------- carousel --------------- -->
+    <hr>
+
+
+
+    <!-- ---------- Boat section ---------- -->
+
+    <section class="boat">
+
+        <div class="center-text">
+            <div class="line-1"></div>
+            <h4>Top Deal's On <span>Top Brands</span></h4>
+            <div class="line-1"></div>
+        </div>
+
+        <div class="top-deal">
+
+            <div class="details">
+
+                <h1>Boat Airpods</h1>
+
+                <small>boAt Airdopes Alpha with 35 HRS Playback, 13mm Drivers, Dual Mics ENx & Beast Mode
+                    Bluetooth</small><br><br>
+
+                <div class="offer">
+                    <div class="text">Special price</div>
+                    <div class="price">
+                        <div class="price-1">₹749</div>
+                        <div class="price-2">₹3,490</div>
+                        <div class="off">78% off</div>
+                    </div>
+                </div>
+                <!-- <div class="btn">
+                    <a href="">Buy Now <i class='bx bx-right-arrow-alt'></i></a>
+                </div> -->
+
+                <button type="button" class="btn btn btn-lg">Buy Now
+                    <i class='bx bx-right-arrow-alt'></i>
+                </button>
+
+            </div>
+
+            <div class="img">
+                <img src="Images/Boat-png.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------- Boat section ---------- -->
+
+
+    <!------------------      Shop by Category      --------------->
+
+    <div class="shop">
+
+        <div class="category" id="product">
+            <div class="line-1"></div>
+            <h4>Shop By Category</h4>
+            <div class="line-1"></div>
+        </div>
+
+        <!-- <div class="center-text">
+            <div class="line-1"></div>
+            <h4>Top Deal's On <span>Top Brands</span></h4>
+            <div class="line-1"></div>
+        </div> -->
+
+        <div class="container">
+            <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+
+                <div class="card">
+                    <a href="casual shirts.html"><img src="Images/casual-1.jpg" alt=""></a>
+                    <div class="text">
+                        <h5>Casual Shirts</h5>
+                        <p>40-70% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="Ethinc Wear.html"><img src="Images/ethinc-1.jpeg" alt=""></a>
+                    <div class="text">
+                        <h5>Ethinc Wear</h5>
+                        <p>50-80% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="t-shirts.html"><img src="Images/T-shirt.jpg" alt=""></a>
+                    <div class="text">
+                        <h5>T-Shirt's</h5>
+                        <p>40-90% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="formal shirts.html"><img src="Images/formal-1.jpg" alt=""></a>
+                    <div class="text">
+                        <h5>Formal Shirts</h5>
+                        <p>40-75% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Images/saree 1.jpg" alt="">
+                    <div class="text">
+                        <h5>Sarees</h5>
+                        <p>45-70% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Images/coat.jpg" alt="">
+                    <div class="text">
+                        <h5>Blazers & Coats</h5>
+                        <p>30-60% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <img src="Images/kids.jpeg" alt="">
+                    <div class="text">
+                        <h5>Kids Wear</h5>
+                        <p>UP TO 70% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/watch.jpg" alt="">
+                    <div class="text">
+                        <h5>Watches</h5>
+                        <p>UP TO 70% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/ethinc men.jpg" alt="">
+                    <div class="text">
+                        <h5>Ethnic Wear</h5>
+                        <p>40-80% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/sunglass.jpg" alt="">
+                    <div class="text">
+                        <h5>Eyewear</h5>
+                        <p>UP TO 80% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/headphone.jpg" alt="">
+                    <div class="text">
+                        <h5>Headphones</h5>
+                        <p>UP TO 70% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/handbags-1.jpg" alt="">
+                    <div class="text">
+                        <h5>Handbags</h5>
+                        <p>40-80% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/shoes.jpg" alt="">
+                    <div class="text">
+                        <h5>Men's Footwear</h5>
+                        <p>30-60% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/shoes-1.jpg" alt="">
+                    <div class="text">
+                        <h5>Women's Footwear</h5>
+                        <p>40-80% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/flip flop.jpg" alt="">
+                    <div class="text">
+                        <h5>Flip-Flops</h5>
+                        <p>40-70% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/trolly.jpg" alt="">
+                    <div class="text">
+                        <h5>Luggage Bags</h5>
+                        <p>30-50% OFF <br>Shop Now</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!------------------      shop by Category      ---------------> 
+
+
+
+    <!-- ------------------------- Reviews section ------------------------- -->
+
+    <div class="container-sm client">
+        <!-- <div class="d-flex p-2 bd-highlight"> -->
+        <section class="client-reviews">
+            <div class="reviews">
+                <h3>client reviews</h3>
+                <div class="client-image">
+                    <img src="Images/review.jpg" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus debitis quis laborum ad
+                    placeat voluptate deleniti corrupti voluptatum eaque fugiat totam, quam harum qui optio atque magnam
+                    eligendi libero? Eveniet deleniti omnis voluptates hic nesciunt est atque at, odit dicta veniam
+                    blanditiis et necessitatibus ullam consequatur temporibus fuga deserunt.</p>
+                <h2>John</h2>
+            </div>
+        </section>
+        <!-- </div> -->
+
+    </div>
+    <!-- ------------------------- Reviews section ------------------------- -->
+
+
+    <!-- ------------------------- playstore ------------------------- -->
+    <div class="playstore">
+        <h3>EXPERIENCE APP ON MOBILE</h3>
+        <div class="img">
+            <div class="google-play"><img src="Images/Google-Play-Store-Button.png" alt=""></div>
+            <div class="app-store"><img src="Images/app-store-6647240_1280.webp" alt=""></div>
+        </div>
+    </div>
+    <!-- ------------------------- playstore ------------------------- -->
+
+
+    <!-- ------------------------- footer ------------------------- -->
+
+    <div class="footer">
+        <div class="image">
+            <img src="Images/new.png" alt="">
+        </div>
+
+        <div class="container">
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="row">
+                    <div class="col">
+                        <div class="col-1">
+                            <h5>Online Shopping</h5>
+                            <li>Men</li>
+                            <li>Women</li>
+                            <li>Kids</li>
+                            <li>Home</li>
+                            <li>Beauty</li>
+                            <li>Genz</li>
+                            <li>Gift Cards</li>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="col-2">
+                            <h5>Download Our App</h5>
+                            <p>Download App for Android and ios Mobile Phone</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="col-3">
+                            <h5>Keep In Touch</h5>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="col-4">
+                            <h5>Useful Links</h5>
+                            <li>Cupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affilate</li>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="col-5">
+                            <h5>Customer Pollcies</h5>
+                            <li>Contact Us</li>
+                            <li>FAQ</li>
+                            <li>T&C</li>
+                            <li>Terms Of Use</li>
+                            <li>Track Orders</li>
+                            <li>Shipping</li>
+                            <li>Cancellation</li>
+                            <li>Returns</li>
+                            <li>Privacy policy</li>
+                            <li>Grievance Redressal</li>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="col-6">
+                            <img src="Images/original.png" alt=""> <span>100% ORIGINAL </span>guarantee for <br>all
+                            products
+                            at
+                            Fashion
+                            Forward.com <br><br>
+                            <img src="Images/return.png" alt=""> <span>Return within 14days</span> of <br>receiving your
+                            order
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- ------------------------- footer ------------------------- -->
+
+
+</body>
+
+</html>

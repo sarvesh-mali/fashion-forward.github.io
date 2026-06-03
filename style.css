@@ -1,0 +1,742 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar-expand-lg {
+    box-shadow: 0 0 5px #555;
+    background-color: #fff;
+    padding: 0px 6%;
+}
+
+.container-fluid {
+    padding: 0 3%;
+}
+
+.container-fluid .navbar-brand img {
+    width: 120px;
+}
+
+ul {
+    padding: 0;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin: 0 5px;
+    /* background-color: aqua; */
+}
+
+.navmenu a {
+    color: #555;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 39px 10px;
+    margin: 5px;
+    /* background-color: antiquewhite; */
+}
+
+/* .nav-item {
+    color: #555;
+    font-size: 18px;
+    background-color: aqua;
+    margin: 5px;
+} */
+
+.navmenu a:hover {
+    color: #ee1c47;
+    border-bottom: 3px solid #ee1c47;
+}
+
+.icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    /* background-color: aqua; */
+}
+
+.icons i {
+    color: #555;
+    font-size: 32px;
+    padding: 30px 20px;
+    margin: 0px 5px;
+    /* background-color: aliceblue; */
+    /* text-decoration: none; */
+}
+
+.icons i:hover {
+    color: #ee1c47;
+    border-bottom: 3px solid #ee1c47;
+}
+
+/* -- --------------- carousel ---------------  */
+.carousel {
+    padding: 20px 10%;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+
+.text-wrap {
+    display: flex;
+}
+
+/* ---------- top deal ---------- */
+
+.boat {
+    padding: 0 9%;
+}
+
+.center-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.center-text .line-1 {
+    width: 30%;
+    height: 1px;
+    background: #ee1c47;
+}
+
+.center-text h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.center-text span {
+    color: #ee1c47;
+    font-weight: 700;
+}
+
+.top-deal {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 60px;
+    padding: 10px 10px;
+    border-radius: 10px; */
+    /* margin: 0 5%; */
+    /* background: radial-gradient(#fff, #f09bac38); */
+
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: radial-gradient(#fff, #f09bac38);
+}
+
+.top-deal .details {
+    width: 55%;
+    margin: 5px;
+    padding: 50px 20px;
+    text-align: center;
+    /* background-color: lavender; */
+}
+
+/* .top-deal .img {
+    width: 60%;
+    width: 415px;
+    height: auto;
+    padding: 10px;
+    margin: 5px 5px;
+    align-content: center;
+    background-color: blueviolet;
+} */
+
+.top-deal .img {
+    width: 40%;
+    margin: 5px;
+    padding: 10px;
+    align-content: center;
+    /* background-color: antiquewhite; */
+}
+
+.top-deal img {
+    width: 100%;
+}
+
+/* .responsive {
+    width: 500px;
+    background-color: #ee1c47;
+}
+
+.responsive img {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    align-content: center;
+} */
+
+.top-deal h1 {
+    font-size: 50px;
+}
+
+.top-deal small {
+    font-size: 15px;
+}
+
+/*----- responsive button -----*/
+.details button {
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 5px 20px 5px 25px;
+    background: #ee1c47;
+    color: #fff;
+}
+
+.details button i {
+    position: relative;
+    top: 3px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.details button:hover {
+    background: #e90d3c;
+    color: #fff;
+}
+
+/*----- responsive button -----*/
+
+
+/* .top-deal .details .btn {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.top-deal .details .btn a {
+    text-decoration: none;
+    background-color: #ee1c47;
+    border-radius: 20px;
+    padding: 5px 20px 5px 25px;
+    color: #fff;
+}
+
+.top-deal .details .btn i {
+    position: relative;
+    top: 3px;
+    text-decoration: none;
+    color: #fff;
+} */
+
+.top-deal .offer {
+    text-align: center;
+    position: relative;
+}
+
+.top-deal .offer .text {
+    color: #388e3c;
+    font-size: 25px;
+}
+
+.top-deal .offer .price {
+    display: flex;
+    justify-content: center;
+}
+
+.details .offer .price {
+    gap: 20px;
+}
+
+.top-deal .offer .price-1 {
+    font-size: 30px;
+}
+
+.top-deal .offer .price-2 {
+    font-size: 18px;
+    color: #555;
+    align-content: center;
+    text-decoration: line-through;
+}
+
+.top-deal .offer .off {
+    font-size: 15px;
+    align-content: center;
+    font-weight: 600;
+    color: #388e3c;
+}
+
+/* ---------- top deal ---------- */
+
+/* ---------- Shop by Category ---------- */
+
+.category {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px 6%;
+    justify-content: space-between;
+    /* background-color: #388e3c; */
+}
+
+.shop {
+    padding: 0 6%;
+}
+
+.category .line-1 {
+    width: 26%;
+    height: 1px;
+    background: #ee1c47;
+}
+
+.category h4 {
+    text-align: center;
+    font-size: 38px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: #ee1c47;
+    text-transform: uppercase;
+    margin: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row .card {
+    width: 250px;
+    background: radial-gradient(#fff, #fd4268f1);
+    cursor: pointer;
+
+    /* height: 400px; */
+    /* height: auto; */
+    /* background-color: #6b6b6b08; */
+}
+
+.row {
+    column-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    /* row-gap: 20px; */
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    transform: translateY(4px);
+
+    /* align-self: center; */
+    /* object-position: top; */
+}
+
+.row .text {
+    margin: 10px 0;
+    justify-items: center;
+    text-align: center;
+
+    /* position: relative; */
+    /* transform: translateY(6px); */
+}
+
+.row .text {
+    color: black;
+}
+
+.text h5 {
+    font-size: 20px;
+    /* margin: 0px; */
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: bold;
+    /* margin: 4px 0px 6px 0; */
+}
+
+/* ---------- Shop by Category ---------- */
+
+
+
+
+
+/* --------------other------------------ */
+
+/* .grid .card {
+    text-align: center;
+} */
+
+/* .col .p-3 {
+    cursor: pointer;
+     width: 250px;
+    height: 400px; 
+} */
+
+/* .col .card {
+    background: radial-gradient(#fff, #fd4268f1);
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #ee1c47;
+    width: 250px;
+    height: auto;
+} */
+
+
+/* .col .card .cardimg {
+    width: 95%;
+    margin: 5px auto; 
+    display: flex;
+} */
+
+/* .col .card .cardimg img {
+    width: 100%;
+    justify-items: center;
+} */
+
+/* .card img {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    object-fit: cover;
+    object-position: top;
+    overflow: hidden;
+    transform: translateY(4px);
+} */
+
+/* .card-body {
+    justify-items: center;
+    text-align: center;
+} */
+
+/* --------------other------------------ */
+
+/*---------------           Review           ---------------*/
+
+.client-reviews {
+    background-color: #f3f4f6;
+    margin-bottom: 5px;
+}
+
+.container-sm {
+    padding: 20px 0;
+}
+
+.reviews {
+    text-align: center;
+}
+
+.reviews h3 {
+    padding: 20px 0px;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+
+.reviews .client-image {
+    width: 300px;
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.reviews .client-image img {
+    width: 100%;
+}
+
+.reviews p {
+    padding: 0 10%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.reviews h2 {
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/*---------------           Review           ---------------*/
+
+
+/*---------------           playstore           ---------------*/
+.playstore {
+    padding: 15px;
+    align-items: center;
+}
+
+.playstore h3 {
+    text-align: center;
+}
+
+.playstore .img {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.playstore .google-play {
+    width: 180px;
+    margin: 5px;
+}
+
+.google-play img {
+    width: 100%;
+}
+
+.playstore .app-store {
+    width: 195px;
+    margin: 5px;
+}
+
+.app-store img {
+    width: 100%;
+}
+
+/*---------------           playstore           ---------------*/
+
+
+/*---------------           footer          ---------------*/
+
+.footer {
+    padding: 20px 10%;
+    background: radial-gradient(#fff, #f09bac38);
+}
+
+.footer img {
+    width: 150px;
+}
+
+.footer .image {
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.footer .row {
+    list-style: none;
+}
+
+.footer .row {
+    width: 100%;
+}
+
+.footer .row h5 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.col-3 i {
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.row h5 {
+    margin-bottom: 20px;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6 {
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.col-6 img {
+    width: 60px;
+    filter: grayscale(100%);
+    margin-right: 10px;
+    float: left;
+}
+
+.col-6 span {
+    font-weight: bolder;
+}
+
+/*---------------           footer          ---------------*/
+
+/*---------------           responsive          ---------------*/
+
+@media (max-width: 1213px) {
+    .category .line-1 {
+        width: 22%;
+    }
+
+    .category h4 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 974px) {
+    .category .line-1 {
+        width: 18%;
+    }
+}
+
+
+
+
+
+@media (max-width: 991px) {
+
+    .navmenu {
+        /* justify-content: space-evenly; */
+        /* justify-content: space-between; */
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .navmenu a {
+        padding: 4px 10px;
+    }
+
+    .navmenu a:hover {
+        border-bottom: 0px;
+    }
+
+    .serch-bar {
+        margin: 0 auto;
+        width: 80%;
+
+    }
+
+    .icons {
+        width: 100%;
+        justify-content: space-around;
+        /* justify-content: space-evenly; */
+        /* justify-content: space-between; */
+        margin: 8px 0;
+    }
+
+    .icons i {
+        padding: 5px 20px;
+        margin: 0px 5px;
+    }
+
+    .icons i:hover {
+        border-bottom: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* ---------- top deal ---------- */
+
+@media (max-width: 768px) {
+
+    .top-deal {
+        flex-direction: column-reverse;
+        transition: all .90s;
+    }
+
+    .top-deal .img {
+        width: 80%;
+        /* background-color: #388e3c; */
+        transition: all .60s;
+    }
+
+    .top-deal .details {
+        width: 100%;
+        padding: 50px 10px;
+    }
+
+    .center-text .line-1 {
+        width: 20%;
+    }
+
+    .center-text h4 {
+        font-size: 28px;
+    }
+
+    .category .line-1 {
+        /* width: 0%; */
+        display: none;
+    }
+
+    .category {
+        padding: 0;
+        /* margin: 0; */
+        display: flex;
+    }
+
+    .category h4 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        /* font-size: 35px; */
+    }
+}
+
+@media (max-width: 500px) {
+
+    .top-deal .img {
+        width: 100%;
+        /* background-color: #388e3c; */
+    }
+
+    .top-deal .details {
+        width: 100%;
+    }
+}
+
+@media (max-width: 477px) {
+    .category h4 {
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 394px) {
+
+    .top-deal h1 {
+        font-size: 40px;
+    }
+
+    .center-text .line-1 {
+        width: 15%;
+    }
+}
+
+@media (max-width: 388px) {
+    .category h4 {
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 325px) {
+
+    .top-deal h1 {
+        font-size: 39px;
+    }
+}
+
+/* ---------- top deal ---------- */
+
+/*---------------           responsive          ---------------*/
